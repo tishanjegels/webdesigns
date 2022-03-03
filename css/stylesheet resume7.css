@@ -1,0 +1,62 @@
+header {
+  text-align: center;
+  color: #000000;
+  padding: 1px;
+}
+
+img{
+  border-radius: 50%;
+  border: solid cornflowerblue 10px;
+}
+
+body{
+  font-family: sans-serif;
+  font-size:150%;
+  background: white url ("images/fullphoto.jpg");
+  background-image: url("images/fullphoto.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+
+
+#sidebar{
+  text-align: center;
+  width: 20%;
+  color: burlywood;
+  padding: 1rem;
+}
+
+nav{
+  padding: 0 ;
+  list-style-type: none;
+}
+
+footer {
+  text-align: center;
+  padding: 1rem;
+}
+
+#context{
+ width: 100%;
+ padding: 1rem;
+}
+
+.icons{
+ width: 7rem;
+ height: auto;
+ margin: 2.5%;
+}
+
+.main{
+  display: flex;
+  flex-direction: row;
+}
+
+a:link{
+  color: inherit;
+}
+
+a:visited{
+  color: inherit;
+}
